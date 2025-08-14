@@ -20,9 +20,18 @@ vim.keymap.set("n", "<C-Down>", "<C-W><C-J>", { desc = "Moves to lower window" }
 vim.keymap.set("n", "<C-Up>", "<C-W><C-K>", { desc = "Moves to lower window" })
 
 -- nvim lsp
-vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format, { desc = "format buffer" })
+vim.keymap.set("n", "<leader>fb", vim.lsp.buf.format, { desc = "format buffer" })
 
--- mini.pick 
+-- mini.pick
 vim.keymap.set("n", "<leader>ff", ":Pick files<CR>")
 vim.keymap.set("n", "<leader>h", ":Pick help<CR>")
 vim.keymap.set("n", "<leader>e", ":Oil<CR>")
+
+-- term
+vim.keymap.set("n", "<leader>t", ":bot term<CR>")
+
+
+-- Keymap: `:Pick config` or map to a key
+vim.keymap.set('n', '<leader>fc', ':edit $MYVIMRC<CR>')
+
+vim.keymap.set('n', '<leader>fm', ':lua MiniFiles.open()<CR>')
