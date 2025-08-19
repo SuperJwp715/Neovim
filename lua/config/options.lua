@@ -7,8 +7,8 @@ vim.o.winborder = "rounded"
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4 -- defines  tab workts with
 vim.opt.softtabstop = 4
-vim.o.autoindent = true
-vim.o.smartindent = true
+-- vim.o.autoindent = true
+-- vim.o.smartindent = true
 vim.o.smarttab = true
 vim.o.expandtab = true -- expand tab
 

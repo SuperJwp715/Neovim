@@ -20,7 +20,7 @@ vim.keymap.set("n", "<C-Down>", "<C-W><C-J>", { desc = "Moves to lower window" }
 vim.keymap.set("n", "<C-Up>", "<C-W><C-K>", { desc = "Moves to lower window" })
 
 -- nvim lsp
-vim.keymap.set("n", "<leader>fb", vim.lsp.buf.format, { desc = "format buffer" })
+-- vim.keymap.set("n", "<leader>fb", require("conform")., { desc = "format buffer" })
 
 -- mini.pick
 vim.keymap.set("n", "<leader>ff", ":Pick files<CR>")
