@@ -53,3 +53,5 @@ end)
 vim.o.termguicolors = true
 
 vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+
+vim.opt.mps:append("<:>")
