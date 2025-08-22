@@ -38,3 +38,5 @@ vim.keymap.set('n', '<leader>fm', ':lua MiniFiles.open()<CR>')
 vim.keymap.set('n', '<leader>p', ':TypstPreview document<CR>')
 
 vim.keymap.set('n', '<leader>i', ':PasteImage<CR>')
+
+vim.keymap.set('n', '<leader>c', 'zt')

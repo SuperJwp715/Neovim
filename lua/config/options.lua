@@ -7,8 +7,8 @@ vim.o.winborder = "rounded"
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4 -- defines  tab workts with
 vim.opt.softtabstop = 4
--- vim.o.autoindent = true
--- vim.o.smartindent = true
+vim.o.autoindent = true
+vim.o.smartindent = true
 vim.o.smarttab = true
 vim.o.expandtab = true -- expand tab
 
@@ -43,7 +43,7 @@ vim.o.splitbelow = true
 vim.o.wrap = false
 vim.o.inccommand = "split" -- shows replacements on find and replace
 vim.o.cursorline = true    -- shows the highlighted cursor line
--- vim.o.scrolloff = 5 -- minimum amount of screen lines you keep above and below your cursor
+vim.o.scrolloff = 5        -- minimum amount of screen lines you keep above and below your cursor
 -- This makes it so that we don't have ~ at the end of buffers
 vim.opt.fillchars = { eob = " " }
 
